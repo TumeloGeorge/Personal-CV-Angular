@@ -9,7 +9,9 @@ import { RouterOutlet } from '@angular/router';
   styleUrl: './app.component.css'
 })
 export class AppComponent {
-  title = 'Tumelo';
+  title = 'Tumelo George';
+  currYear = new Date().getFullYear();
+  age = this.currYear - 2001;
   variable = "Jack";
   money = 40;
 }
